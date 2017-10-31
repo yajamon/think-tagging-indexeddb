@@ -1,4 +1,4 @@
-import { Subject } from "./domain/subject";
+import { Subject } from "./domain/subject.js";
 
 const s = new Subject();
 s.name = "a subject";
