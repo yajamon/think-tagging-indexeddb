@@ -1,4 +1,4 @@
-import { ValueObject } from "./valueObject";
+import { ValueObject } from "./valueObject.js";
 
 export class Name extends ValueObject<string> {
 }
