@@ -1,3 +1,5 @@
+import { Identity } from "./identity";
+
 export abstract class Entity {
-    public id: number;
+    public id: Identity;
 }
