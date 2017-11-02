@@ -1,5 +1,5 @@
-import { Subject } from "./domain/subject.js";
+import { Application } from "./application/application.js";
 
-const s = new Subject();
-s.name = "a subject";
+const app = new Application();
+const s = app.createSubject("a subject");
 console.log(s.name);
